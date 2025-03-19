@@ -1,0 +1,25 @@
+name: qr_scanner_with_effect
+description: A Flutter package for QR scanner with scanning effect.
+version: 2.0.0
+homepage: https://github.com/mirzamahmud/qr_scanner_with_effect
+repository: https://github.com/mirzamahmud/qr_scanner_with_effect
+issue_tracker: https://github.com/mirzamahmud/qr_scanner_with_effect/issues
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  qr_code_scanner:
+    git: https://github.com/padiwiseng/qr_code_scanner
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
